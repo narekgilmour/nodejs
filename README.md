@@ -1,2 +1,2 @@
 # nodejs
-exercise from eloquent javascript book
+exercises from eloquent javascript book
