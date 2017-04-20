@@ -1,15 +1,15 @@
 function counter() {
   var current = 0
-  function counter() {
+  function localCounter() {
     return current++
   }
-  counter.set = function (yourNumber) {
+  localCounter.set = function (yourNumber) {
       current = yourNumber
     }
-  counter.reset = function () {
+  localCounter.reset = function () {
       current = 1
     }
-    return counter;
+    return localCounter;
 }
 
 
